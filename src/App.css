@@ -1,0 +1,58 @@
+
+html,
+body {
+  height: 100%;
+  
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+
+footer {
+  flex-shrink: 0;
+}
+
+
+.styleParargaph{
+
+position: absolute !important; 
+margin-top: -10rem !important;
+color: #eceff1 ;
+text-shadow: 0.5px 0.5px #000000 ;
+}
+
+.styleHeading{
+
+  position: absolute !important;
+  margin-top: -15rem !important;
+  color: whitesmoke;
+  text-shadow: 0.5px 0.5px #000000 ;
+  }
+
+.styleParargaphLot{
+
+    position: absolute !important; 
+    margin-top: -19rem !important;
+    color: #eceff1 ;
+    text-shadow: 0.5px 0.5px #000000 ;
+    }
+    
+.styleHeadingLot{
+    
+      position: absolute !important;
+      margin-top: -25rem !important;
+      color: whitesmoke;
+      text-shadow: 0.5px 0.5px #000000 ;
+      }
+
+.wrapper {
+        min-height: 100%;
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+    }
+
+.Skill-img {
+  filter: blur(2px)
+}
